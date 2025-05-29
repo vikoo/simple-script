@@ -1,8 +1,6 @@
 
-<script>
-//  if (!window.inlineJsWorks) {
-    console.log("Code from github.");
-//  } else {
-//    console.log("✅ Inline JavaScript is allowed.");
-//  }
-</script>
+function safeLog() {
+  console.log("sample log from github hosted js");
+}
+
+safeLog();
